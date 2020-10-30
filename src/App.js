@@ -17,11 +17,12 @@ function App() {
 
         <p>
           Open-source on{" "}
-          <a href="https://github.com/Pratibhatomar03/vanilla-weather-application">
+          <a href="https://github.com/Pratibhatomar03/my-react-weather-app">
             GitHub{" "}
           </a>
           and hosted on{" "}
-          <a href="https://sad-babbage-b8d06f.netlify.app"> Netlify </a> by{" "}
+          <a href="https://cocky-archimedes-5c9b92.netlify.app/"> Netlify </a>{" "}
+          by{" "}
           <a href="https://ecstatic-bassi-280461.netlify.app/">
             Pratibha Tomar
           </a>
