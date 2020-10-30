@@ -1,0 +1,15 @@
+.submit {
+  border: 1px solid white;
+  background-color: rgb(136, 137, 187);
+  padding: 8px;
+  border-radius: 3px;
+}
+.submit:hover {
+  background-color: white;
+  color: rgb(136, 137, 187);
+}
+.enterCity {
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid white;
+}

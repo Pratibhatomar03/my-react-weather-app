@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Form from "./Form.js";
+import CurrentTemperature from "./CurrentTemperature";
+import GeneralInformation from "./GeneralInformation";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <div className="weather-app-wrapper">
+        <div className="weather-app">
+          <h1>Weather forecast</h1>
+          <hr />
+          <Form />
+          <br />
+          <GeneralInformation />
+          <CurrentTemperature />
+        </div>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Open-source on{" "}
+          <a href="https://github.com/Pratibhatomar03/vanilla-weather-application">
+            GitHub{" "}
+          </a>
+          and hosted on{" "}
+          <a href="https://sad-babbage-b8d06f.netlify.app"> Netlify </a> by{" "}
+          <a href="https://ecstatic-bassi-280461.netlify.app/">
+            Pratibha Tomar
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
