@@ -2,7 +2,8 @@ import "./App.css";
 import Form from "./Form.js";
 import CurrentTemperature from "./CurrentTemperature";
 import GeneralInformation from "./GeneralInformation";
-function App() {
+
+export default function App() {
   return (
     <div className="container">
       <div className="weather-app-wrapper">
@@ -31,5 +32,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
