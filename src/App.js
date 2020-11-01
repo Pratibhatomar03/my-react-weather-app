@@ -20,6 +20,7 @@ export default function App() {
           Open-source on{" "}
           <a
             href="https://github.com/Pratibhatomar03/my-react-weather-app"
+            target="_blank"
             rel="noopener noreferrer"
           >
             GitHub{" "}
@@ -27,6 +28,7 @@ export default function App() {
           and hosted on{" "}
           <a
             href="https://cocky-archimedes-5c9b92.netlify.app/"
+            target="_blank"
             rel="noopener noreferrer"
           >
             {" "}
@@ -35,6 +37,7 @@ export default function App() {
           by{" "}
           <a
             href="https://ecstatic-bassi-280461.netlify.app/"
+            target="_blank"
             rel="noopener noreferrer"
           >
             Pratibha Tomar
